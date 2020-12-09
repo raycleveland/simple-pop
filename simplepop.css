@@ -1,0 +1,33 @@
+.hidden {
+	display: none!important;
+	opacity: 0;
+}
+#simple-pop-wrap {
+	z-index: 9999;
+	background: rgba(0,0,0,.8);
+	opacity: 1;
+	transition: opacity .5s ease; 
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+#simple-pop-contents {
+	z-index: 10000;
+	background: #fff;
+	padding: 10px;
+	opacity: 1;
+	transition: opacity 1s ease;
+}
+#simple-pop-contents .close {
+	background: #fff;
+	position: absolute;
+	height: 10px;
+	padding: 0 5px;
+	top: -10px;
+	right: 0;
+}
