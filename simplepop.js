@@ -29,7 +29,7 @@ let simplePop = {
         	return false;
     	};
     	contents.onclick = function(event) {
-    		event.stopPropagation() = true;
+    		event.stopPropagation();
     		return false;	
     	}
 	},
