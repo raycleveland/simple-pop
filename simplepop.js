@@ -29,7 +29,7 @@ let simplePop = {
         	return false;
     	};
     	contents.onclick = function(event) {
-    		event.cancelBubble = true;
+    		event.stopPropagation() = true;
     		return false;	
     	}
 	},
